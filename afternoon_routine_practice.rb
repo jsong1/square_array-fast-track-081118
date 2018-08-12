@@ -9,3 +9,8 @@
 
 
 days_array = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+
+days_array.each do |day|
+  puts "Today is #{day}"
+  print_routine(day)
+  puts ""
